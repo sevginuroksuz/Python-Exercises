@@ -46,9 +46,6 @@ for eleman in Siparis:
      if eleman in Menu:
          Tutar+=int(MenuFiyat[eleman])
 
-        
-     
-     
 if Tutar <= Limit:
  print(f"Hesap:{Tutar}")
  print("Siparisiniz alındı. Hazırlanıyor.")
